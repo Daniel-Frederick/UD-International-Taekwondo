@@ -1,0 +1,22 @@
+/* header {
+  width: 70%;
+} */
+
+header {
+  background-color: #204f9f;
+  width: 75%;
+  margin: 0 auto;
+  /* background-image: url("../../../assets/International_Taekwondon_Logo.png"); */
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  background-attachment: fixed;
+  /* 
+  background-attachment:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment
+  */
+}
