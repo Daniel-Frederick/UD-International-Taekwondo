@@ -20,3 +20,15 @@ header img {
   https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment
   */
 }
+
+@media screen and (max-width: 940px) {
+  header {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  header {
+    width: 100%;
+  }
+}
