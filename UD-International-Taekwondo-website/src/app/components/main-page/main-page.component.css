@@ -113,9 +113,13 @@ h2 {
     margin: 0 auto;
   }
 
+  .activities h3 {
+    margin: 12px 0;
+  }
+
   .activities p {
     font-size: 1rem;
-    margin: 0 10%;
+    margin: 5px 10%;
   }
 
   .activities h2 {
@@ -127,5 +131,38 @@ h2 {
 @media screen and (max-width: 580px) {
   main {
     width: 100%;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  /* Title */
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .spacing {
+    margin: 0 75px 15px 75px;
+    font-size: 0.6rem;
+  }
+
+  /* Activites */
+  .activities h2 {
+    font-size: 0.9rem;
+  }
+
+  .activities h3 {
+    font-size: 0.9rem;
+    margin: 12px 0;
+  }
+
+  .activities section img {
+    height: 180px;
+  }
+
+  .activities p {
+    font-size: 0.6rem;
+    margin: 5px 10%;
   }
 }

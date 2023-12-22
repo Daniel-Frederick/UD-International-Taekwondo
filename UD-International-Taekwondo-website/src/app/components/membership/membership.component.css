@@ -66,3 +66,27 @@
     margin: 8px 0 10px 0;
   }
 }
+
+@media screen and (max-width: 580px) {
+  /* text: Membership */
+  .membership h2:first-child {
+    font-size: 0.9rem;
+    margin: 8px 0;
+  }
+
+  .membership h3 {
+    font-size: 0.9rem;
+  }
+
+  .membership p {
+    font-size: 0.5rem;
+  }
+
+  .experience h3 {
+    font-size: 0.9rem;
+  }
+
+  .experience p {
+    font-size: 0.5rem;
+  }
+}
