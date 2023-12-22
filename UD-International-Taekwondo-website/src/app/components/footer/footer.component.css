@@ -49,3 +49,26 @@ div > a img {
   height: 60px;
   margin: 0 10px;
 }
+
+@media screen and (max-width: 940px) {
+  .joinText {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* Text */
+  .joinText {
+    font-size: 0.9rem;
+  }
+
+  .follow {
+    font-size: 0.9rem;
+  }
+
+  /* Social Media Images */
+  div > a img {
+    height: 40px;
+    margin: 0 10px;
+  }
+}

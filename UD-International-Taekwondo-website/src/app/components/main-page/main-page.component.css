@@ -84,6 +84,10 @@ h2 {
     width: 85%;
   }
 
+  .spacing {
+    margin: 0 5% 15px 5%;
+  }
+
   /* switch order */
   #forms-wrapper {
     flex-direction: column-reverse;
@@ -143,8 +147,9 @@ h2 {
   }
 
   .spacing {
-    margin: 0 75px 15px 75px;
+    margin: 0 15% 15px 15%;
     font-size: 0.6rem;
+    margin: 0 5% 15px 5%;
   }
 
   /* Activites */
